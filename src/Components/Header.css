@@ -1,0 +1,15 @@
+.container{
+    margin-top: 80px;
+}
+.navlist{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.text{
+    text-decoration: none;
+    font-size: larger;
+}
+.text:hover{
+    color:red;
+}

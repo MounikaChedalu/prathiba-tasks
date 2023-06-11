@@ -1,0 +1,22 @@
+.value
+{
+    margin-left: 20px; 
+     margin-top: 600px;
+}
+.values{
+    margin-bottom: 100px;
+    
+}
+.buttons{
+    margin-left: 500px;
+    margin-top: -10px;
+}
+.headings{
+    margin-top: 30px;
+}
+.underline{
+    text-decoration: underline;
+}
+.logout{
+    margin-left: 1400px;
+}

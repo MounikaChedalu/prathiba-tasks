@@ -1,0 +1,27 @@
+.input{
+    height:40px;
+    width:300px;
+    border-radius: 10px;
+    border-color: black;
+    margin-left: 10px;
+
+}
+form{
+    margin-left: 400px;
+    margin-top: 100px;
+
+}
+.label{
+    font-size: larger;
+}
+.verify{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.msg{
+    margin-left: 150px;
+}
+.code{
+    margin-left: 500px;
+    margin-top: 40px;
+}
