@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import Login from "./Login";
-import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
+import {HashRouter as Router,Route,Routes } from 'react-router-dom';
 import Registration from "./Registration";
 import './Header.css';
 import Emailverification from './Emailverification';
