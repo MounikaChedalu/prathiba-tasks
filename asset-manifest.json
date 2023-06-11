@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/prathiba-tasks/static/css/main.465aaedd.css",
+    "main.js": "/prathiba-tasks/static/js/main.8d77edc9.js",
+    "index.html": "/prathiba-tasks/index.html",
+    "main.465aaedd.css.map": "/prathiba-tasks/static/css/main.465aaedd.css.map",
+    "main.8d77edc9.js.map": "/prathiba-tasks/static/js/main.8d77edc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.465aaedd.css",
+    "static/js/main.8d77edc9.js"
+  ]
+}
