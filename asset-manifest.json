@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/prathiba-tasks/static/css/main.465aaedd.css",
-    "main.js": "/prathiba-tasks/static/js/main.bfe0d106.js",
+    "main.css": "/prathiba-tasks/static/css/main.d2b511cd.css",
+    "main.js": "/prathiba-tasks/static/js/main.cb64d64e.js",
     "index.html": "/prathiba-tasks/index.html",
-    "main.465aaedd.css.map": "/prathiba-tasks/static/css/main.465aaedd.css.map",
-    "main.bfe0d106.js.map": "/prathiba-tasks/static/js/main.bfe0d106.js.map"
+    "main.d2b511cd.css.map": "/prathiba-tasks/static/css/main.d2b511cd.css.map",
+    "main.cb64d64e.js.map": "/prathiba-tasks/static/js/main.cb64d64e.js.map"
   },
   "entrypoints": [
-    "static/css/main.465aaedd.css",
-    "static/js/main.bfe0d106.js"
+    "static/css/main.d2b511cd.css",
+    "static/js/main.cb64d64e.js"
   ]
 }
