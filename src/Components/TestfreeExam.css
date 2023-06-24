@@ -1,0 +1,81 @@
+.value
+{
+    margin-left: 20px; 
+     margin-top: 600px;
+}
+.values{
+    margin-bottom: 100px;
+    
+}
+/* .start{
+    margin-left: 100px;
+    margin-top: 10px;
+} */
+.buttons{
+    margin-left: 500px;
+    margin-top: -10px;
+}
+.headings{
+    margin-top: 30px;
+}
+.underline{
+    text-decoration: underline;
+}
+.logout{
+    margin-left: 1300px;
+    margin-top: -80px;
+}
+.nav{
+    background-color:lightblue;
+    height:60px;
+    margin-top: 10px;
+}
+.packages{
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+.transactions{
+    margin-left: 1150px;
+    margin-top: -40px;
+}
+@media screen and (max-width: 768px) {
+    .value {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .values {
+        margin-bottom: 50px;
+    }
+
+    .buttons {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .headings {
+        margin-top: 20px;
+        font-size: 18px;
+        margin-left: 10px;
+        
+    }
+
+    .logout {
+        margin-left: 220px;
+        /* margin-top: -165px; */
+    }
+
+    .nav {
+        height: 50px;
+        margin-top: 0;
+    }
+
+    .packages {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .transactions {
+        margin-left: 100px;
+    }
+}

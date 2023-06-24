@@ -1,0 +1,33 @@
+.marks{
+    margin-left: 20px;
+}
+.result-box{
+    border-bottom: 1px solid black;
+}
+.heading{
+   margin-left: 600px;
+   margin-bottom: 20px;
+   text-decoration: underline;
+}
+.container-box{
+    border:1px solid black;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+@media (max-width: 768px) {
+    .marks {
+        margin-left: 10px;
+    }
+
+    .heading {
+        margin-left: 20px;
+    }
+
+    .container-box {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+}

@@ -1,4 +1,7 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+import './finish.css';
 
 function Finish() {
   useEffect(() => {
@@ -23,9 +26,10 @@ function Finish() {
   }
 
   return (
-    <div className='text-center'>
-      <h3>Exam Finished</h3>
-    </div>
+    <div>
+      <h3 className='finish'>Exam Finished</h3>
+     <Link to = {`/results`}><Button className='ok-button'>Ok</Button></Link>
+     </div>
   );
 }
 

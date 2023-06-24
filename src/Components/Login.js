@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
 import './Login.css';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
-import Navbar from './Navbar';
 
 
 const Login = ({setId,setTokenu}) => {
@@ -31,7 +31,7 @@ const Login = ({setId,setTokenu}) => {
       });
       if(response.data.status === 200){
         setMsgtext(response.data.data.Message);
-        navigate("/Exams");
+        navigate("/TestfreeExam");
       }
       else{
         setMsgtext(response.data.data);
@@ -51,7 +51,6 @@ const Login = ({setId,setTokenu}) => {
 
   return (
     <div >
-      <Navbar />
       <form className='form'>
         <h2>Login Form</h2>
       <div>
@@ -73,9 +72,9 @@ const Login = ({setId,setTokenu}) => {
         />
       </div>
         <h4 className='msgtext'>{msgtext}</h4>
-      <button 
+      <Button 
       onClick = {handleClick} className='button'
-      type="submit">Login</button>
+      type="submit">Login</Button>
         <div>
           <span>Don't have an account? </span>
           <Link to="/registration">Register</Link>
@@ -87,5 +86,10 @@ const Login = ({setId,setTokenu}) => {
 }
 
 export default Login;
+
+
+
+
+
 
 

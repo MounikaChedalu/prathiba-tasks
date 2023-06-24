@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useLocation,useNavigate } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 import './Emailverification.css';
 
 const Emailverification = () => {
@@ -49,7 +50,7 @@ const Emailverification = () => {
           onChange={handleChange}
           required
         />
-        <button onClick={handleClick}type="submit" className='verify'>Verify</button><br /><br />
+        <Button onClick={handleClick}type="submit" className='verify'>Verify</Button><br /><br />
         <h5 className='msg'>{msgtext}</h5>
       </form>
       <h4 className='code'>{code}</h4>

@@ -67,6 +67,7 @@
 }
 .label{
    margin-left: 80px;
+   font-size: 14px;
 }
 .button{
     margin-left: 280px;
@@ -82,4 +83,41 @@ span{
 .register{
     color: white;
     text-decoration: none;
+}
+.input-fields{
+    margin-top: 2px;
+}
+@media screen and (max-width: 768px) {
+    .form-container {
+      width: 100%;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .email,
+    .password,
+    .name,
+    .phone,
+    .confirm-password {
+      width: 65%;
+      margin-left: 15%;
+      margin-right: 5%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .label {
+        margin-left: 5%; 
+        font-size: 12px;
+      }
+    .button {
+      margin-left: 50%;
+      transform: translateX(-50%);
+      margin-top: 20px;
+      display: block;
+      margin-bottom: 5px;
+    }
+    h2 {
+        margin-left: 20%;
+        text-decoration: underline;
+        margin-bottom: 20px; 
+      }
 }
