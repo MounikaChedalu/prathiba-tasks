@@ -84,9 +84,8 @@ const Packagedetails = ({ id, tokenu, serverKey }) => {
         key: 'rzp_test_Sea0U959aubTaB',
         amount: payamount * 100,
         currency: 'INR',
-        name: 'Mounika Chedalu',
+        name: 'TEST INTELLIGENTLY LLP',
         description: 'Test Transaction',
-        image: 'https://example.com/your_logo',
         // order_id: 'order_9A33XWu170gUtm',
         callback_url: 'https://eneqd3r9zrjok.x.pipedream.net/',
         handler: function (response) {
